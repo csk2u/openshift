@@ -3,7 +3,7 @@ import tornado.wsgi
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write('Hello tornado!<br><a href="/source">View the source code</a>')
+        self.write('Hello 测试中文 tornado!<br><a href="/source">View the source code</a>')
 
 class ViewHandler(tornado.web.RequestHandler):
     def get(self):
